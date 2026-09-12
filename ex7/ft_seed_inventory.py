@@ -1,5 +1,5 @@
 def ft_seed_inventory(seed_type: str, quantity: int, unit: str) -> None:
-    global g_word
+    g_word: str
     if unit == "packets":
         g_word = f"{quantity} {unit} available"
     elif unit == "grams":

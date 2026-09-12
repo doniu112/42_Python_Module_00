@@ -3,5 +3,6 @@ exclude =
 	.venv,
 	.git,
 	__pycache__,
-	tester
-
+	tester,
+	main.py,
+	main1.py
