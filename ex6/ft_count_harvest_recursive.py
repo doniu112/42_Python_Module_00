@@ -3,7 +3,7 @@ def ft_count_harvest(day: int, days: int) -> None:
         print("Harvest time!")
         return
 
-    print("Day ", day)
+    print("Day", day)
     ft_count_harvest(day+1, days)
 
 
